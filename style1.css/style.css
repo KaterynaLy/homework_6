@@ -50,7 +50,7 @@ img {
   margin: 0 auto;
 }
 
-/* Header */
+/* Header section*/
 
 .header {
   padding: 24px 0;
@@ -398,7 +398,7 @@ img {
   width: calc((100% - 48) / 3);
 }
 
-/* Team */
+/* Team section */
 
 .team {
   background-color: var(--button-background-color);
@@ -726,7 +726,7 @@ img {
   margin-left: 16px;
 }
 
-/* BACKDROP and MODAL*/
+/* MODAL & BACKDROP */
 
 .backdrop {
   position: fixed;
