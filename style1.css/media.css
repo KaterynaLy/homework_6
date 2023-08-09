@@ -177,12 +177,13 @@
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office-tablet-2x.jpg);
+        padding: 112px 0 112px;
     }
   }
 
   .features-item {
     max-width: unset;
-    width: calc((100% - 3 * 24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   .features-subtitle {
@@ -253,7 +254,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-2x.jpg);
+        url(../images/people-office-mobile-2x.jpg);
     }
   }
 
