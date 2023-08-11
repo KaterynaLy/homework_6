@@ -251,6 +251,7 @@ img {
 .header-menu,
 .header-contacts {
   display: none;
+  margin-left: auto;
 }
 
 /* Hero section */
@@ -371,7 +372,7 @@ img {
 
 .features-item-text {
   /*font-weight: 500;*/
-  padding: 120px;
+  padding: 20px 0 20px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
