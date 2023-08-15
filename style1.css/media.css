@@ -149,7 +149,7 @@
   }
 
   .customers-item {
-    width: 168px;
+    width: calc((100%-48px) / 3);
     gap: 24px;
   }
 
@@ -178,7 +178,7 @@
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office-tablet-2x.jpg);
-        padding: 112px 0 112px;
+        /*padding: 112px 0 112px;*/
     }
   }
 
@@ -245,6 +245,7 @@
       ),
       url(../images/people-office.jpg);
     max-width: 1158px;
+    padding: 188px 0 188px;
   }
 
   @media (min-device-pixel-ratio: 2),
