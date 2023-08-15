@@ -261,10 +261,7 @@ margin-top: auto;
 
 .hero {
   background-color: var(--subtitle-color);
- 
-  padding-top: 112px;
-  /* padding: 188px 0 188px; */
-  padding-bottom: 112px;
+  padding: 112px 0 112px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -292,7 +289,6 @@ margin-top: auto;
 .hero-title {
   font-weight: 700;
   font-family: Roboto;
-  /*font-size: 36px;*/
   font-size: 36px;
   line-height: 1.08;
   /* line-height: 1.07; */
