@@ -149,8 +149,7 @@
   }
 
   .customers-item {
-    width: calc((100%-48px) / 3);
-    gap: 24px;
+    width: ((100% - 48px) / 3);
   }
 
   .footer-logo {
@@ -251,6 +250,7 @@
     max-width: 1158px;
     padding: 188px 0 188px;
   }
+}
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
