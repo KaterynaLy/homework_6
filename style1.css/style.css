@@ -292,14 +292,12 @@ margin-top: auto;
   line-height: 1.08;
   /* line-height: 1.07; */
   text-align: center;
-  /*letter-spacing: 0.045em;*/
   letter-spacing: 0.02em;
   color: var(--title-color);
   margin-left: auto;
   margin-right: auto;
   max-width: 496px;
   margin-bottom: 72px;
-  /* margin-bottom: 48px; */
 }
 
 .hero-btn {
@@ -401,6 +399,7 @@ margin-top: auto;
   display: flex;
   gap: 24px;
 }
+
 .activities-item {
   width: calc((100% - 48) / 3);
 }
@@ -530,7 +529,7 @@ margin-top: auto;
   border: 1px solid #8e8f99;
   box-sizing: border-box;
   border-radius: 4px;
-  /*padding: 16px;*/
+  /*padding: 16px*/
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
