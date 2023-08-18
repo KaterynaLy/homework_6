@@ -90,21 +90,19 @@ img {
 .button-hamburger {
   stroke: #2e2f42;
 }
+
 .mob-menu {
-  padding-top: 80px 35px 40px 40px;
+  padding-top: 80px;
   position: fixed;
   top: 0;
   z-index: 2;
   width: 100%;
   height: 100%;
+  padding-bottom: 40px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   overflow: auto;
-}
-
-.mob-menu-social {
-margin-top: auto;
 }
 
 .close-menu-btn {
@@ -159,6 +157,7 @@ margin-top: auto;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .mob-menu-link:hover,
 .mob-menu-link:focus {
   color: var(--header-menu-link);
@@ -167,14 +166,14 @@ margin-top: auto;
 .mob-menu-contacts {
   font-style: normal;
   margin-top: 0% auto;
-  margin-bottom: 48px;
 }
 
 .mob-menu-contacts-list {
   display: flex;
   gap: 40px;
   flex-direction: column;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 40px;
 }
 
 .mob-tel-contacts-link {
@@ -212,6 +211,7 @@ margin-top: auto;
   display: flex;
   cursor: pointer;
   gap: 36px;
+  padding-left: 40px;
 }
 
 .mob-menu-soc-item {
@@ -260,12 +260,13 @@ margin-top: auto;
 
 .hero {
   background-color: var(--subtitle-color);
-  padding: 112px 0 112px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office.jpg);
+
+  padding-top: 188px;
+  /* padding: 188px 0 188px; */
+  padding-bottom: 188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(../images/people-office-mobile.jpg);
   max-width: 428px;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -274,13 +275,11 @@ margin-top: auto;
 }
 
 @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
       url(../images/people-office-mobile-2x.jpg);
   }
 }
@@ -288,16 +287,19 @@ margin-top: auto;
 .hero-title {
   font-weight: 700;
   font-family: Roboto;
-  font-size: 36px;
+  /*font-size: 36px;*/
+  font-size: 56px;
   line-height: 1.08;
   /* line-height: 1.07; */
   text-align: center;
+  /*letter-spacing: 0.045em;*/
   letter-spacing: 0.02em;
   color: var(--title-color);
   margin-left: auto;
   margin-right: auto;
-  max-width: 496px;
+  max-width: 320px;
   margin-bottom: 72px;
+  /* margin-bottom: 48px; */
 }
 
 .hero-btn {
@@ -344,6 +346,7 @@ margin-top: auto;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .features {
   padding: 96px 0;
 }
@@ -351,7 +354,8 @@ margin-top: auto;
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px 24px;
+  gap: 72px;
+  24px;
 }
 
 .features-subtitle {
@@ -370,7 +374,7 @@ margin-top: auto;
 
 .features-item-text {
   /*font-weight: 500;*/
-  /*padding: 20px 0 20px;*/
+  padding: 20px 0 20px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -529,7 +533,7 @@ margin-top: auto;
   border: 1px solid #8e8f99;
   box-sizing: border-box;
   border-radius: 4px;
-  /*padding: 16px*/
+  /*padding: 16px;*/
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -541,13 +545,14 @@ margin-top: auto;
 }
 
 .customers-item {
-  width: 190px;
+  width: calc((100% - 16px) / 2);
+  /* width: 168px; */
   height: 88px;
   display: flex;
+  /* gap: 24px; */
   gap: 16px;
   align-items: center;
   justify-content: center;
-  /*max-width: 584px;*/
 }
 
 .customers-title {
@@ -662,8 +667,17 @@ margin-top: auto;
 
 .footer-soc-icon {
   fill: var(--button-background-color);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
+
+.footer-form {
+  /* display: flex;
+  flex-direction: column;
+  gap: 24px; */
+}
+
 .footer-input {
+  /* width: 398px; */
   width: 100%;
   height: 40px;
   font-size: 12px;
@@ -822,7 +836,7 @@ margin-top: auto;
   border-color: #4d5ae5;
 }
 
-.modal-input:focus + .input-icon {
+.modal-input:focus+.input-icon {
   fill: #4d5ae5;
 }
 
@@ -910,7 +924,7 @@ margin-top: auto;
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-check:checked + .check-text span {
+.input-check:checked+.check-text span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -981,6 +995,7 @@ margin-top: auto;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .filters-btn:focus {
   color: var(--title-color);
   background-color: var(--header-menu-link);
