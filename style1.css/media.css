@@ -10,13 +10,18 @@
   .features-item {
     max-width: 396px;
   }
+  .hero {
+    padding: 112px 0px 112px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
-
+  .hero {
+    padding: 112px 0px 112px;
+  }
   .open-menu-btn,
   .button-hamburger,
   .mob-menu {
@@ -151,10 +156,12 @@
   }
 
   .customers-item {
-    width: 168px;
-    gap: 24px;
+    width: calc((100% - 48px) / 3);
   }
+  .container {
+    max-width: 584px;
 
+}
   .footer-logo {
     display: inline-block;
     text-align: unset;
@@ -178,7 +185,6 @@
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
         url(../images/people-office-tablet.jpg);
-      padding: 112px 0 112px;
     }
   }
 
@@ -243,7 +249,14 @@
         rgba(46, 47, 66, 0.7)),
       url(../images/people-office.jpg);
     max-width: 1158px;
+    padding: 188px 0 188px;
   }
+  .hero-title {
+    font-size: 56px;
+  }
+  
+  .customers-list {
+    flex-wrap: nowrap;}
 
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -313,7 +326,7 @@
   .customers {
     padding: 120px 0;
   }
-
+  
   .footer {
     padding: 100px 0;
   }
