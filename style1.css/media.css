@@ -188,6 +188,10 @@
     }
   }
 
+    .hero {
+      padding: 112px 0px 112px;
+    }
+    
   .features-item {
     max-width: unset;
     width: calc((100% - 24px) / 2);
