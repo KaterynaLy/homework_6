@@ -270,10 +270,10 @@
   .hero-title {
     font-size: 56px;
   }
-     .customers {
-       max-width: 1158px;
-       justify-content: center;
-       margin: auto;
+  .customers {
+    max-width: 1158px;
+    justify-content: center;
+    margin: auto;
      }
   .customers-list {
     flex-wrap: nowrap;}
