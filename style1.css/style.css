@@ -140,10 +140,9 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mob-menu-list {
-  padding-left: 40px;
+/*.mob-menu-list {
   width: 200px;
-}
+}*/
 
 .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
@@ -177,7 +176,6 @@ img {
   gap: 40px;
   flex-direction: column;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding-left: 40px;
 }
 
 .mob-tel-contacts-link {
@@ -265,7 +263,7 @@ img {
   background-color: var(--subtitle-color);
 
 
-  /* padding: 188px 0 188px; */
+  padding: 112px 0 112px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
     url(../images/people-office-mobile.jpg);
@@ -276,7 +274,7 @@ img {
   background-size: cover;
 }
 
-@media (min-device-pixel-ratio: 2),
+*@media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .hero {

@@ -13,6 +13,9 @@
   .hero {
     padding: 112px 0px 112px;
   }
+  .hero-title {
+  font-size: 36px;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -22,6 +25,7 @@
   .hero {
     padding: 112px 0px 112px;
   }
+  
   .open-menu-btn,
   .button-hamburger,
   .mob-menu {
@@ -31,6 +35,10 @@
   .header-menu,
   .header-contacts {
     display: unset;
+  }
+
+  .hero-title {
+  font-size: 56px;
   }
 
   .header {
@@ -154,13 +162,16 @@
   .team-list {
     gap: 64px 24px;
   }
-
+  .customers {
+    max-width: 584px;
+    justify-content: center;
+    margin: auto;
+  }
   .customers-item {
     width: calc((100% - 48px) / 3);
   }
   .container {
-    max-width: 584px;
-
+    max-width: 768px;
 }
   .footer-logo {
     display: inline-block;
@@ -184,7 +195,7 @@
     .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
-        url(../images/people-office-tablet.jpg);
+        url(../images/people-office-tablet-2x.jpg);
     }
   }
 
@@ -268,7 +279,7 @@
     .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
-        url(../images/people-office-mobile-2x.jpg);
+        url(../images/people-office-2x.jpg);
     }
   }
 
